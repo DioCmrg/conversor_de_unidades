@@ -7,7 +7,7 @@ const toElement = document.querySelector("#to")
 // output nos dá os dados de saída
 const outputElement = document.querySelector("#output")
 // botao que vai converter as unidades
-const convertButton = document.querySelector("#convert-bnt")
+const convertButton = document.querySelector("#convert-btn")
 // vai exibir a mensagem final (resultado)
 const messageElement = document.querySelector("#message")
 
@@ -61,4 +61,4 @@ function convert() {
     console.log(meters, result);
 }
 
-convertButton.addEventListener("click", convert)
+convertButton.addEventListener("click", convert);
