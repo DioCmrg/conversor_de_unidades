@@ -10,3 +10,13 @@ const outputElement = document.querySelector("#output")
 const convertButton = document.querySelector("#convert-bnt")
 // vai exibir a mensagem final (resultado)
 const messageElement = document.querySelector("#message")
+
+// Função para converter as unidades
+function convert() {
+    const fromValue = fromElement.value;
+    const toValue = toElement.value;
+
+    console.log(fromValue, toValue)
+}
+
+convertButton.addEventListener("click", convert)
