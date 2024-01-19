@@ -56,9 +56,20 @@ function convert() {
             result = meters * 1000
             break;
     }
+// Exibir resultado no input
+    outputElement.value = result;
 
-    console.log(fromValue, toValue);
-    console.log(meters, result);
+// Exibir resultado na mensagem
+    const fromLabel = fromElement.options[fromElement.selectedIndex].text;
+    const toLabel = toElement.options[toElement.selectedIndex].text;
+
+    const message = `${inputElement.value} ${fromLabel} equivalem a ${result} ${toLabel}`;
+    messageElement.textContent = message;
+    return;
+
+    // console.log(fromValue, toValue);
+    // console.log(meters, result);
 }
 
+// Adicionar um ouvinte de eventos ao botão de conversão
 convertButton.addEventListener("click", convert);
