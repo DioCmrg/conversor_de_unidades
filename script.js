@@ -16,6 +16,13 @@ function convert() {
     const fromValue = fromElement.value;
     const toValue = toElement.value;
 
+    // pequena validação para verificar de entrada e saída são iguais
+    if(fromValue === toValue) {
+        outputElement.value = inputElement.value;
+        messageElement.textContent = "";
+        return
+    }
+
     console.log(fromValue, toValue)
 }
 
