@@ -1,0 +1,12 @@
+// Selecionar os elementos
+const inputElement = document.querySelector("#input")
+// from determina qual o tipo do dado do input
+const fromElement = document.querySelector("#from")
+// to determina o tipo do dado que será convertido
+const toElement = document.querySelector("#to")
+// output nos dá os dados de saída
+const outputElement = document.querySelector("#output")
+// botao que vai converter as unidades
+const convertButton = document.querySelector("#convert-bnt")
+// vai exibir a mensagem final (resultado)
+const messageElement = document.querySelector("#message")
