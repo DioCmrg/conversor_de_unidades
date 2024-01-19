@@ -40,8 +40,25 @@ function convert() {
             break;
     }
 
+    // Converter metros para unidade de saída
+    let result 
+    switch (toValue) {
+        case "m":
+            result = meters;
+            break;
+        case "km":
+            result = meters / 1000
+            break;
+        case "cm":
+            result = meters * 100
+            break;
+        case "mm":
+            result = meters * 1000
+            break;
+    }
 
-    console.log(fromValue, toValue)
+    console.log(fromValue, toValue);
+    console.log(meters, result);
 }
 
 convertButton.addEventListener("click", convert)
