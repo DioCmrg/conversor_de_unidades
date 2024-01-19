@@ -23,6 +23,24 @@ function convert() {
         return
     }
 
+    // Converter a entreda para metros
+    let meters
+    switch (fromValue) {
+        case "m":
+            meters = inputElement.value
+            break;
+        case "km":
+            meters = inputElement.value * 1000
+            break;
+        case "cm":
+            meters = inputElement.value / 100
+            break;
+        case "mm":
+            meters = inputElement.value / 1000
+            break;
+    }
+
+
     console.log(fromValue, toValue)
 }
 
