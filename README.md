@@ -2,8 +2,6 @@
 
 Bem-vindo ao Conversor de Unidades! Este projeto simples em JavaScript permite converter medidas entre metros, quilômetros, centímetros e milímetros.
 
-![Conversor de Unidades](/img/img-projeto.png)
-
 ## Funcionalidades
 
 - Conversão de metros para quilômetros, centímetros e milímetros.
@@ -29,6 +27,10 @@ Bem-vindo ao Conversor de Unidades! Este projeto simples em JavaScript permite c
 ## Pré-requisitos
 
 Certifique-se de ter um navegador web moderno para executar o projeto.
+
+## Pré-visualização do projeto
+
+![Conversor de Unidades](/img/img-projeto.png)
 
 ## Contribuições
 
